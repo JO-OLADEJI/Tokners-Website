@@ -61,3 +61,63 @@
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 15px 15px #22a75e34;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.user-card {
+  background-color: #171B29;
+  width: 39.5vw;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: .5vw;
+}
+
+.user-card img {
+  width: 4rem;
+}
+
+.user-card:nth-child(2) {
+  transform: translateY(30%);
+}
+
+.card-body {
+  padding: 0 1rem;
+}
+
+.user-card h1 {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.user-card .user {
+  margin-left: .5rem;
+  text-decoration: underline;
+}
+
+.card-desc {
+  color: #c4c7d4;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+
+.learn-more-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.learn-more-link i {
+  margin-left: 1rem;
+}

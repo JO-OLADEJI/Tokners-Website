@@ -1,14 +1,22 @@
 import React from 'react';
 import Nav from '../Nav.jsx';
 import intro_img from '../../assets/images/intro-img.png';
+import crown_icon from '../../assets/icons/crown-icon.png';
+import star_icon from '../../assets/icons/star-icon.png';
+import user_card_data from './user-card-data.json';
 import './home.css';
+import UserCard from './UserCard.jsx';
 
 
 const Home = (props) => {
+  const userCardIcons = [crown_icon, star_icon];
+  // console.log(user_card_data);
+
   return (
     <div className="Home">
       <header className="home-header">
         <Nav />
+
         <div className="intro">
           <div className="intro-text">
             <h6>At Tokners we are</h6>
@@ -19,6 +27,18 @@ const Home = (props) => {
           <div className="intro-image">
             <img src={ intro_img } alt="" />
           </div>
+        </div>
+
+        <div className="cards">
+          {user_card_data.map((details, index) => (
+            <UserCard
+              key={details.id}
+              icon={userCardIcons[index]}
+              user={details.user}
+              color={details.color}
+              description={details.descirption}
+            />
+          ))}
         </div>
       </header>
     </div>
