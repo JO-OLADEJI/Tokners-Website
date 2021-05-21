@@ -3,6 +3,7 @@ import Nav from '../Nav.jsx';
 import intro_img from '../../assets/images/intro-img.png';
 import crown_icon from '../../assets/icons/crown-icon.png';
 import star_icon from '../../assets/icons/star-icon.png';
+import diff_img from '../../assets/images/diff-img.png';
 import user_card_data from './user-card-data.json';
 import './home.css';
 import UserCard from './UserCard.jsx';
@@ -10,11 +11,10 @@ import UserCard from './UserCard.jsx';
 
 const Home = (props) => {
   const userCardIcons = [crown_icon, star_icon];
-  // console.log(user_card_data);
 
   return (
     <div className="Home">
-      <header className="home-header">
+      <div className="home-header">
         <Nav />
 
         <div className="intro">
@@ -40,7 +40,23 @@ const Home = (props) => {
             />
           ))}
         </div>
-      </header>
+
+        <div className="difference">
+          <div className="diff-img">
+            <img src={diff_img} alt="" />
+          </div>
+          <div className="diff-text">
+            <h1>What makes us different?</h1>
+            <p>We would only launch tokens with the express permission of the creators.</p>
+            <p>There are several thousand celebrities and creators on twitter, tiktok Instagram and YouTube with followings in the millions who we would be engaging before we go viral.</p>
+            <p>We would get them on our platform and they would see the opportunity to create a fan driven digital economy where their digital content can be traded as NFTs and their most loyal fans can have the monetary value of their creator's currency increase significantly as they promote their digital currency across their channels while our native token holders benefit from the Weentar popularity.</p>
+          </div>
+        </div>
+        
+        <div className="tags">
+          
+        </div>
+      </div>
     </div>
   );
 }
