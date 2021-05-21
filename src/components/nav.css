@@ -1,0 +1,54 @@
+.Nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.logo-icon {
+  margin-right: .5rem;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 77vw;
+}
+
+.nav-links li {
+  list-style: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+}
+
+.left-nav-links,
+.right-nav-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-nav-links li:first-child {
+  margin-right: 2rem;
+}
+
+.right-nav-links li:last-child {
+  border: 1px solid #22A75D;
+  padding: .6rem 2rem;
+  border-radius: 4rem;
+}
