@@ -1,0 +1,63 @@
+.home-header {
+  background-image: url('../../assets/backgrounds/blur-bg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.intro-text {
+  display: inline-block;
+  width: 45vw;
+  padding: 7rem 0 0 10vw;
+}
+
+.intro-image {
+  display: inline-block;
+  width: 55vw;
+}
+
+.intro-image img {
+  width: 100%;
+}
+
+.intro-text h6 {
+  background-image: linear-gradient(#00B4EC, #2B3087);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7rem;
+  margin-bottom: .6rem;
+}
+
+.intro-text h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.intro-text p {
+  color: #c4c7d4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: .9rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.learn-more-btn {
+  background-color: #22A75D;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 15px 15px #22a75e34;
+}
