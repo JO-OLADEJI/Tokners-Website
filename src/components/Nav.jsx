@@ -15,10 +15,18 @@ const Nav = (props) => {
       <div className="nav-links">
         <ul>
           <div className="left-nav-links">
-            <Link className="anchor-link" to="/our-team"><li>Our team</li></Link>
-            <Link className="anchor-link" to="/tokenomics"><li>Tokens</li></Link>
-            <Link className="anchor-link" to="/connect-wallet"><li>Connect wallet</li></Link>
-            <Link className="anchor-link" to="/home"><li>Lightpaper</li></Link>
+            <Link className="anchor-link" to="/our-team">
+              <li>Our team</li>
+            </Link>
+            <Link className="anchor-link" to="/tokenomics">
+              <li>Tokens</li>
+            </Link>
+            <Link className="anchor-link" to="/connect-wallet">
+              <li>Connect wallet</li>
+            </Link>
+            <Link className="anchor-link" to="/home">
+              <li>Lightpaper</li>
+            </Link>
           </div>
           
           <div className="right-nav-links">

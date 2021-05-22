@@ -4,13 +4,20 @@ import intro_img from '../../assets/images/intro-img.png';
 import crown_icon from '../../assets/icons/crown-icon.png';
 import star_icon from '../../assets/icons/star-icon.png';
 import diff_img from '../../assets/images/diff-img.png';
+import tag1 from '../../assets/icons/tag1.png';
+import tag2 from '../../assets/icons/tag2.png';
+import tag3 from '../../assets/icons/tag3.png';
+import tag4 from '../../assets/icons/tag4.png';
 import user_card_data from './user-card-data.json';
+import tag_data from './tag-data.json';
 import './home.css';
 import UserCard from './UserCard.jsx';
+import Tag from './Tag.jsx';
 
 
 const Home = (props) => {
   const userCardIcons = [crown_icon, star_icon];
+  const tagIcons = [tag1, tag2, tag3, tag4];
 
   return (
     <div className="Home">
@@ -54,7 +61,15 @@ const Home = (props) => {
         </div>
         
         <div className="tags">
-          
+          {tag_data.map((data, index) => (
+            <Tag
+              key={data.id}
+              icon={tagIcons[index]}
+              year={data.year}
+              color={data.color}
+              events={data.events}
+            />
+          ))}
         </div>
       </div>
     </div>

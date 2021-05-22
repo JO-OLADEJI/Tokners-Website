@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "year": 2021,
+    "color": "#22A75D",
+    "events": [
+      "Team set-up",
+      "Launch of informational website"
+    ]
+  },
+  {
+    "id": 2,
+    "year": 2021,
+    "color": "#2278D4",
+    "events": [
+      "Presale and exchange listings",
+      "Blockchain development and launch",
+      "Launch of our MVP",
+      "Influencer agency partnership",
+      "Marketing and promotion"
+    ]
+  },
+  {
+    "id": 3,
+    "year": 2021,
+    "color": "#FFD100",
+    "events": [
+      "Celebrity, Creator, Influencer partnership",
+      "Expansion of creator communities on our platform",
+      "More marketing and promotion"
+    ]
+  },
+  {
+    "id": 4,
+    "year": 2021,
+    "color": "#E20613",
+    "events": [
+      "Mainstream partnership",
+      "500 active creator communities",
+      "2Million active community members",
+      "More marketing and promotion"
+    ]
+  }
+]
