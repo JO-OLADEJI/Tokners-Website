@@ -90,13 +90,14 @@ const Home = (props) => {
               <p>We are trying to do to this space what investment apps did for the "nonexistent retail investors". We are gamefying digital currency, bringing in popular faces instead of hard to understand projects to make it the norm and inadvertently being the "gateway drug" for a lot of people to finally give this space a real look.</p>
 
               <details className="drop-down-details">
-                <summary className="read-more-btn">Read more</summary>
+                <summary className="read-more-btn">Read More</summary>
                 <p className="first-pg">A new digital economy is coming. People would be just as powerful as countries and creators would be paid beyond the peanuts that conventional social media platforms can offer.</p>
 
                 <p>There would be new markets and advertisers with little to offer would not find home there. Like Kanye said,</p>
 
                 <blockquote>
-                  "Personalities would become the new currency, and services would be built on top of them".
+                  <h2>"</h2>
+                  <q>Personalities would become the new currency, and services would be built on top of them.</q>
                 </blockquote>
 
                 <p>Well, Kanye didn't exactly say that, but it sounds like something we hope he would say.</p>

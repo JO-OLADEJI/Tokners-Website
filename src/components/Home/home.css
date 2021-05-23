@@ -223,10 +223,10 @@
 }
 
 .tk-coming-text p {
-  color: #d8d8d8;
+  color: #bbbaba;
   margin: 1.5rem 0;
-  font-family: 'Didact gothic', sans-serif;
-  font-size: .9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .85rem;
   line-height: 1.5;
   word-spacing: .1rem;
 }
@@ -283,4 +283,25 @@
 
 .first-pg {
   font-weight: bold;
+}
+
+blockquote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+blockquote h2 {
+  font-weight: bold;
+  color: #FFD100;
+  margin-right: 1rem;
+  transform: rotate(180deg);
+}
+
+blockquote q {
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  font-style: oblique;
 }
