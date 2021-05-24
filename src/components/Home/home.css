@@ -305,3 +305,91 @@ blockquote q {
   font-size: .9rem;
   font-style: oblique;
 }
+
+.presale {
+  position: relative;
+}
+
+.presale-bg {
+  width: 100%;
+}
+
+.presale-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.presale-content h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.presale-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presale-card {
+  background-color: white;
+  color: #393a3f;
+  font-family: 'Montserrat', sans-serif;
+  width: 20rem;
+  margin: 0 .5rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.presale-card:nth-child(2) {
+  transform: translateY(10%);
+}
+
+.presale-card img {
+  width: 7rem;
+}
+
+.presale-card h1 {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.presale-card h3 {
+  font-size: .85rem;
+  margin-top: .5rem;
+  color: #393a3f;
+}
+
+.presale-card h2 {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  margin-bottom: .7rem;
+}
+
+.presale-cap {
+  font-size: .8rem;
+  margin-top: .3rem;
+}
+
+.presale-cap-hl {
+  font-weight: bold;
+  margin-left: .3rem;
+}
+
+.bg-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 10rem;
+  color: transparent;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px #393a3f1c;
+}

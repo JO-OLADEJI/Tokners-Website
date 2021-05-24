@@ -9,18 +9,25 @@ import tag1 from '../../assets/icons/tag1.png';
 import tag2 from '../../assets/icons/tag2.png';
 import tag3 from '../../assets/icons/tag3.png';
 import tag4 from '../../assets/icons/tag4.png';
+import presale_card1 from '../../assets/icons/num1.png';
+import presale_card2 from '../../assets/icons/num2.png';
+import presale_card3 from '../../assets/icons/num3.png';
 import white_arc from '../../assets/backgrounds/white-arc.png';
 import holding_iphone from '../../assets/images/holding-iphone.png';
+import presale_bg from '../../assets/backgrounds/presale-bg.png';
 import user_card_data from './user-card-data.json';
+import presale_card_data from './presale-card-data.json';
 import tag_data from './tag-data.json';
 import './home.css';
 import UserCard from './UserCard.jsx';
 import Tag from './Tag.jsx';
+import PresaleCard from './PresaleCard.jsx';
 
 
 const Home = (props) => {
   const userCardIcons = [crown_icon, star_icon];
   const tagIcons = [tag1, tag2, tag3, tag4];
+  const presaleIcons = [presale_card1, presale_card2, presale_card3];
 
   return (
     <div className="Home">
@@ -110,6 +117,31 @@ const Home = (props) => {
             <img src={holding_iphone} alt="" />
             <div className="tk-coming-img-bg"></div>
           </div>
+        </div>
+
+        <div className="presale">
+          <img className="presale-bg" src={presale_bg} alt="" />
+          <div className="presale-content">
+            <h1>Presale Details</h1>
+            <div className="presale-cards">
+              {presale_card_data.map((data, index) => (
+                <PresaleCard
+                  key={data.id}
+                  icon={presaleIcons[index]}
+                  name={data.name}
+                  number={data.number}
+                  period={data.period}
+                  conversion={data.conversion}
+                  softCap={data.softCap}
+                  hardCap={data.hardCap}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="how-to-buy">
+          {/*  */}
         </div>
       </div>
     </div>

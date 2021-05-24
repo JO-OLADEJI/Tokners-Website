@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Phase One",
+    "number": "01",
+    "period": "01/04/2021 - 16/04/2021",
+    "conversion": "1 BNB = 100000 WNTR",
+    "softCap": "5000 BNB",
+    "hardCap": "10000 BNB"
+  },
+  {
+    "id": 2,
+    "name": "Phase Two",
+    "number": "02",
+    "period": "01/05/2021 - 16/08/2021",
+    "conversion": "1 BNB = 100000 WNTR",
+    "softCap": "5000 BNB",
+    "hardCap": "10000 BNB"
+  },
+  {
+    "id": 3,
+    "name": "Phase Three",
+    "number": "03",
+    "period": "01/09/2021 - 16/12/2021",
+    "conversion": "1 BNB = 100000 WNTR",
+    "softCap": "5000 BNB",
+    "hardCap": "10000 BNB"
+  }
+]
