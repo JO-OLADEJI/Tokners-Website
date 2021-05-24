@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo_small from '../assets/icons/logo-small.png';
-import logo_letter from '../assets/icons/logo-letter.png';
+import logo_small from '../../assets/icons/logo-small.png';
+import logo_letter from '../../assets/icons/logo-letter.png';
 import './nav.css';
 
 

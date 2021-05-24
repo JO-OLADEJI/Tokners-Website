@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../Nav.jsx';
+import Nav from '../Nav/Nav.jsx';
 import logo_small from '../../assets/icons/logo-small.png';
 import intro_img from '../../assets/images/intro-img.png';
 import crown_icon from '../../assets/icons/crown-icon.png';
